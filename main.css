@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transition: all 0.2s ease-out;
+}
+
+button {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+
+  font-weight: 900;
+  font-size: 64px;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+
+  min-width: 450px;
+  transition: all 0.2s ease-out;
+}
+
+#text {
+  color: white;
+  border: 5px solid white;
+  margin-bottom: 2rem;
+}
+
+#text:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+#text:active {
+  border-color: rgba(255, 255, 255, 1);
+}
+
+#generate {
+  color: #212121;
+  background-color: white;
+}
+
+#generate:hover {
+  opacity: 0.9;
+}
+
+#generate:active {
+  opacity: 0.8;
+}
